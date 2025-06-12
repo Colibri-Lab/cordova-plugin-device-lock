@@ -4,13 +4,13 @@
         xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <name>DeviceLockPlugin</name>
+    <name>DeviceLock</name>
     <description>Detects device lock/unlock events</description>
     <license>MIT</license>
     <keywords>device, lock, unlock</keywords>
 
-    <js-module src="www/DeviceLock.js" name="DeviceLock">
-        <clobbers target="DeviceLock" />
+    <js-module src="www/device_lock.js" name="DeviceLock">
+        <clobbers target="ColibriAccessories.DeviceLock" />
     </js-module>
 
     <platform name="android">
