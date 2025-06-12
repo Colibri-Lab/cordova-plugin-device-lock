@@ -20,7 +20,7 @@
         <source-file src="src/android/DeviceLockPlugin.java" target-dir="src/com/colibri/accessories/devicelock" />
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="DeviceLockPlugin">
-                <param name="android-package" value="com.colibri.accessories.DeviceLockPlugin" />
+                <param name="android-package" value="com.colibri.accessories.devicelock.DeviceLockPlugin" />
             </feature>
         </config-file>
     </platform>
