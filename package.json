@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-device-lock",
+  "version": "1.0.0",
+  "description": "Detects device lock/unlock status",
+  "cordova": {
+    "id": "cordova-plugin-device-lock",
+    "platforms": ["android", "ios"]
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "lock",
+    "unlock",
+    "status",
+    "plugin"
+  ],
+  "author": "Vahan P. Grigoryan",
+  "license": "MIT"
+}
