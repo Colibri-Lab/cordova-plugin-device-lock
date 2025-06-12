@@ -1,15 +1,24 @@
-<plugin id="cordova-plugin-device-lock" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-device-lock"
+        version="1.0.0"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
     <name>DeviceLockPlugin</name>
     <description>Detects device lock/unlock events</description>
     <license>MIT</license>
     <keywords>device, lock, unlock</keywords>
-    <engines>
-        <engine name="cordova" version=">=9.0.0" />
-    </engines>
+
+    <js-module src="www/DeviceLock.js" name="DeviceLock">
+        <clobbers target="DeviceLock" />
+    </js-module>
+
     <platform name="android">
         <source-file src="src/android/DeviceLockPlugin.java" target-dir="src/com/colibri/accessories/devicelock" />
     </platform>
+
     <platform name="ios">
         <source-file src="src/ios/DeviceLockPlugin.m" />
     </platform>
+
 </plugin>
