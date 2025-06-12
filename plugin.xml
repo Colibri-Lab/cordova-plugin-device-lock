@@ -9,7 +9,7 @@
     <license>MIT</license>
     <keywords>device, lock, unlock</keywords>
 
-    <dependency id="com.colibri.accessories"
+    <dependency id="cordova-plugin-colibri-accessories"
             url="git+ssh://git@gitlab.colibrilab.pro:cordova/colibri-accessories.git#master" />
 
     <js-module src="www/device_lock.js" name="DeviceLock">
